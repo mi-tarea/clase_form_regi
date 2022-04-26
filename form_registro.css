@@ -1,18 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #d6817e;
     margin: 0px;
     padding: 0px;
 }
+
 nav {
     background: white;
     height: 80px;
     width: 100%;
 }
+
 .fondo {
     background-image: url(fondo.jpg);
     
 }
+
 .logo { 
     background: url(logo1.png) no-repeat 20% 60%;
     background-size: contain;
@@ -20,48 +28,58 @@ nav {
     height: 60px;
     float: left;
 }
+
 .menu a{
     color: #0c0a0a;
     text-decoration: none;
     margin-left: 60%;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
 }
+
 .menu a:hover{
-    color: #e0251f;
+    color: #e23933;
 }
-.busca{
-    width: 100%;
-    margin: 20px;
-    padding: 10px;
-    resize: vertical;
+
+.control{
+    width: 60%;
+    padding: 5px 20px;
+    margin: auto;
+    margin-top: 100px;
 }
+
+.buscar{
+    font-size: 14px; 
+    font-family: 'Lobster', cursive;
+}
+
 input[type="search"]{
     width: 50%;
-    padding: 12px;
-    margin: 12px 0px;
+    padding: 12px 20px;
+    margin: 12px 12px;
     border: 2px solid rgb(19, 10, 10);
     border-radius: 20px;
-    resize: vertical;
+    
 }
+
 button[type="submit"]{
     background-color: #0c0a0a;
     color: white;
-    padding: 12px 25px;
+    padding: 12px 20px;
     border: 2px solid rgb(19, 10, 10);
     border-radius: 20px;
-    cursor: pointer;
-    float: none;
+    /*estilo del boton buscar*/
+    
 }
 
 button[type="submit"]:hover{
-    background-color: #e0251f;
+    background-color: #e23933;
 }
 
 h1 {
-    font-family: Arial; 
+    font-family: 'Lobster', cursive;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     margin: 60px auto;
-    width: 90%;
 }
