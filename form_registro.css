@@ -63,17 +63,17 @@ input[type="search"]{
     
 }
 
-button[type="submit"]{
+input[type="submit"]{
     background-color: #0c0a0a;
     color: white;
     padding: 12px 20px;
     border: 2px solid rgb(19, 10, 10);
     border-radius: 20px;
-    /*estilo del boton buscar*/
+    /*estilo de la entrada buscar*/
     
 }
 
-button[type="submit"]:hover{
+input[type="submit"]:hover{
     background-color: #e23933;
 }
 
